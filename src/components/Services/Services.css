@@ -1,0 +1,39 @@
+.services{
+    background-color: black;
+    color: white !important;
+    
+}
+hr{
+    height: 2px;
+    background-image: -webkit-linear-gradient(left,black,white,white,black);
+}
+.myservicesText{
+    text-align: center;
+
+}
+.myservicesText span{
+    color: rgb(211,23, 111);
+}
+.serviceIcon{
+    color: rgb(211,23, 111);
+}
+.serviceIcon span{
+    border-color: rgb(211,23, 111) !important;
+}
+.service{
+    transition: 1s ;
+}
+.service:hover{
+    /* background-color: rgb(211,23, 111); */
+    text-decoration-color: white !important;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: white !important;
+    
+}
+.service:hover.serviceIcon{
+    color: white !important;
+}
+.service:hover.serviceIcon span{
+    border-color: white !important;
+}
